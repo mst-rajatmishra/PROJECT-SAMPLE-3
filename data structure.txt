@@ -1,0 +1,772 @@
+{
+  "First Name": "PERSONAL INFORMATION->Name->First Name :",
+  "Last Name": "PERSONAL INFORMATION->Name->Last Name :",
+  "Date of Birth": "PERSONAL INFORMATION->Demographics->Birth Date :",
+  "Social Security Number": "PERSONAL INFORMATION->Personal Identification Numbers->Social Security Number :",
+  "Gender": "PERSONAL INFORMATION->Demographics->Gender Identity:",
+  "Race/Ethnicity": "PERSONAL INFORMATION->Demographics->Race/Ethnicity :",
+  "Are you a US Citizen": "PERSONAL INFORMATION->Demographics->Are you a US Citizen :",
+  "Primary E-mail Address": "PERSONAL INFORMATION->Primary Method of Contact->Primary E-mail Address :",
+  "Personal Cell Phone": "PERSONAL INFORMATION->Phone Numbers->Personal Cell Phone :",
+  "UPIN": "PERSONAL IDENTIFICATION NUMBERS->UPIN :",
+  "NPI": "PERSONAL IDENTIFICATION NUMBERS->Individual NPI :",
+  "CAQH #": "CAQH Data->CAQH #",
+  "Last Reattestation Date": "CAQH Data->Last Reattestation Date",
+  "Attestation Date": "CAQH Data->Attestation Date",
+  "Professional License State": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->License State :",
+  "Professional License Number": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->License Number :",
+  "License Expiration Date": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->Expiration Date :",
+  "DEA Number": "PROFESSIONAL IDENTIFICATION NUMBERS->DEA Registration->DEA Number :",
+  "Medicaid Number": "PROFESSIONAL IDENTIFICATION NUMBERS->Medicaid->Medicaid Number :",
+  "Graduate Type": "EDUCATION->Graduate Type :",
+  "Professional School": "EDUCATION->Professional School Information->Professional School :",
+  "Professional School Start Date": "EDUCATION->Professional School Information->Professional School Start Date :",
+  "Professional School End Date": "EDUCATION->Professional School Information->Professional School End Date :",
+  "Graduation Date": "EDUCATION->Professional School Information->Graduation Date :",
+  "Practice Name": "PRACTICE LOCATIONS->Active Locations->Practice Name :",
+  "Practice Address": "PRACTICE LOCATIONS->Active Locations->Street 1 :",
+  "Practice City": "PRACTICE LOCATIONS->Active Locations->City :",
+  "Practice State": "PRACTICE LOCATIONS->Active Locations->State :",
+  "Practice Zip Code": "PRACTICE LOCATIONS->Active Locations->Zip Code :",
+  "Appointment Phone Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers->Appointment Phone Number :",
+  "Monday Start Time": "PRACTICE LOCATIONS->Active Locations->Monday->Start Time :",
+  "Monday End Time": "PRACTICE LOCATIONS->Active Locations->Monday->End Time :",
+  "Tuesday Start Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->Start Time :",
+  "Tuesday End Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->End Time :"
+}
+{
+  "Summary Date": "CAQH Data->Summary Date",
+  "Metadata": "CAQH Data->metadata",
+  "CAQH #": "CAQH Data->CAQH #",
+  "Last Reattestation Date": "CAQH Data->Last Reattestation Date",
+  "Attestation Date": "CAQH Data->Attestation Date",
+
+  "NUCC Grouping": "PREPARE->NUCC Grouping:",
+  "Provider Type": "PREPARE->Provider Type:",
+  "Practice Setting": "PREPARE->Practice Setting:",
+  "Primary Practice State": "PREPARE->Primary Practice State:",
+
+  "First Name": "PERSONAL INFORMATION->Name->First Name :",
+  "Last Name": "PERSONAL INFORMATION->Name->Last Name :",
+  "Have you used other names?": "PERSONAL INFORMATION->Name->Have you used other names?",
+  
+  "Home Address Street": "PERSONAL INFORMATION->Home Address->Street 1 :",
+  "Home Address City": "PERSONAL INFORMATION->Home Address->City :",
+  "Home Address State": "PERSONAL INFORMATION->Home Address->State :",
+  "Home Address Zip Code": "PERSONAL INFORMATION->Home Address->Zip Code :",
+  "Mailing Address Same as Home": "PERSONAL INFORMATION->Mailing Address->Is Mailing address and Home Address Same?",
+  
+  "Primary E-mail Address": "PERSONAL INFORMATION->Primary Method of Contact->Primary E-mail Address :",
+  "Personal E-mail Address": "PERSONAL INFORMATION->Primary Method of Contact->Personal E-mail Address :",
+  
+  "Personal Cell Phone": "PERSONAL INFORMATION->Phone Numbers->Personal Cell Phone :",
+
+  "Social Security Number": "PERSONAL INFORMATION->Personal Identification Numbers->Social Security Number :",
+  "UPIN": "PERSONAL INFORMATION->Personal Identification Numbers->UPIN :",
+  "Individual NPI": "PERSONAL INFORMATION->Personal Identification Numbers->Individual NPI :",
+  
+  "Gender Identity": "PERSONAL INFORMATION->Demographics->Gender Identity:",
+  "Race/Ethnicity": "PERSONAL INFORMATION->Demographics->Race/Ethnicity :",
+  "Birth Date": "PERSONAL INFORMATION->Demographics->Birth Date :",
+  "Are you a US Citizen": "PERSONAL INFORMATION->Demographics->Are you a US Citizen :",
+
+  "License State": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->License State :",
+  "Do you currently practice in this state?": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->Do you currently practice in this state?",
+  "License Number": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->License Number :",
+  "License Type": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->License Type :",
+  "License Status": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->License Status :",
+  "License Issue Date": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->Issue Date :",
+  "License Expiration Date": "PROFESSIONAL IDENTIFICATION NUMBERS->Professional License->Expiration Date :",
+
+  "DEA Number": "PROFESSIONAL IDENTIFICATION NUMBERS->DEA Registration->DEA Number :",
+  "DEA State": "PROFESSIONAL IDENTIFICATION NUMBERS->DEA Registration->DEA State :",
+  "DEA Issue Date": "PROFESSIONAL IDENTIFICATION NUMBERS->DEA Registration->Issue Date :",
+  "DEA Expiration Date": "PROFESSIONAL IDENTIFICATION NUMBERS->DEA Registration->Expiration Date :",
+  
+  "Do you have a CDS Registration Certificate?": "PROFESSIONAL IDENTIFICATION NUMBERS->Controlled Dangerous Substance (CDS) Registration->Do you have a CDS Registration Certificate?",
+  
+  "Medicare Participation": "PROFESSIONAL IDENTIFICATION NUMBERS->Medicare->Are you a participating Medicare provider?",
+  "Medicaid Participation": "PROFESSIONAL IDENTIFICATION NUMBERS->Medicaid->Are you a participating Medicaid provider?",
+  "Medicaid Number": "PROFESSIONAL IDENTIFICATION NUMBERS->Medicaid->Medicaid Number :",
+  "Medicaid State": "PROFESSIONAL IDENTIFICATION NUMBERS->Medicaid->State :",
+
+  "ECFMG Number": "PROFESSIONAL IDENTIFICATION NUMBERS->ECFMG->Do you have a Educational Commission for Foreign Medical Graduates (ECFMG) Number?"
+}
+
+
+{
+  "Graduate Type": "EDUCATION->Graduate Type :",
+  "Professional School Country": "EDUCATION->Professional School Information->Country :",
+  "Professional School State": "EDUCATION->Professional School Information->State :",
+  "Professional School Name": "EDUCATION->Professional School Information->Professional School :",
+  "Professional School Street": "EDUCATION->Professional School Information->Street 1 :",
+  "Professional School City": "EDUCATION->Professional School Information->City :",
+  "Professional School Zip Code": "EDUCATION->Professional School Information->Zip Code :",
+  "Degree": "EDUCATION->Professional School Information->Degree :",
+  "Professional School Start Date": "EDUCATION->Professional School Information->Professional School Start Date :",
+  "Professional School End Date": "EDUCATION->Professional School Information->Professional School End Date :",
+  "Graduation Date": "EDUCATION->Professional School Information->Graduation Date :",
+  
+  "Undergraduate Education State": "EDUCATION->Undergraduate Education->State :",
+  "Undergraduate School": "EDUCATION->Undergraduate Education->School :",
+  "Undergraduate Zip Code": "EDUCATION->Undergraduate Education->Zip Code :",
+  "Undergraduate Degree": "EDUCATION->Undergraduate Education->Degree :",
+  "Undergraduate Start Date": "EDUCATION->Undergraduate Education->Start Date :",
+  "Undergraduate End Date": "EDUCATION->Undergraduate Education->End Date :",
+  "Undergraduate Major": "EDUCATION->Undergraduate Education->Area of Training / Course of Study / Major :",
+  "Undergraduate Graduation Date": "EDUCATION->Undergraduate Education->Graduation Date :",
+
+  "Internship Type": "TRAINING INFORMATION->Internship->Type :",
+  "Internship Country": "TRAINING INFORMATION->Internship->Country :",
+  "Internship State": "TRAINING INFORMATION->Internship->State :",
+  "Internship Hospital Name": "TRAINING INFORMATION->Internship->Institution/Hospital Name :",
+  "Internship Street": "TRAINING INFORMATION->Internship->Street1 :",
+  "Internship City": "TRAINING INFORMATION->Internship->City :",
+  "Internship Zip Code": "TRAINING INFORMATION->Internship->Zip Code :",
+  "Internship Start Date": "TRAINING INFORMATION->Internship->Start Date :",
+  "Internship End Date": "TRAINING INFORMATION->Internship->End Date :",
+  "Internship Department": "TRAINING INFORMATION->Internship->Department :",
+  "Internship Specialty": "TRAINING INFORMATION->Internship->Specialty :",
+
+  "Residency Type": "TRAINING INFORMATION->Residency->Type :",
+  "Residency Country": "TRAINING INFORMATION->Residency->Country :",
+  "Residency State": "TRAINING INFORMATION->Residency->State :",
+  "Residency Hospital Name": "TRAINING INFORMATION->Residency->Institution/Hospital Name :",
+  "Residency Street": "TRAINING INFORMATION->Residency->Street1 :",
+  "Residency City": "TRAINING INFORMATION->Residency->City :",
+  "Residency Zip Code": "TRAINING INFORMATION->Residency->Zip Code :",
+  "Residency Start Date": "TRAINING INFORMATION->Residency->Start Date :",
+  "Residency End Date": "TRAINING INFORMATION->Residency->End Date :",
+  "Residency Department": "TRAINING INFORMATION->Residency->Department :",
+  "Residency Specialty": "TRAINING INFORMATION->Residency->Specialty :",
+
+  "Cultural Competency Training Completed": "TRAINING INFORMATION->Cultural Competency Training->Have you completed cultural competency training?",
+  "Cultural Competency Training Completion Date": "TRAINING INFORMATION->Cultural Competency Training->Completion Date :",
+  
+  "Faculty Position Country": "TRAINING INFORMATION->Faculty Positions->Country :",
+  "Faculty Position State": "TRAINING INFORMATION->Faculty Positions->State :",
+  "Faculty Institution Name": "TRAINING INFORMATION->Faculty Positions->Institution/Hospital Name :",
+  "Faculty Academic Rank": "TRAINING INFORMATION->Faculty Positions->Academic Rank or Title :",
+  "Faculty Street": "TRAINING INFORMATION->Faculty Positions->Street1 :",
+  "Faculty City": "TRAINING INFORMATION->Faculty Positions->City :",
+  "Faculty Zip Code": "TRAINING INFORMATION->Faculty Positions->Zip Code :",
+  "Faculty Specialty": "TRAINING INFORMATION->Faculty Positions->Specialty :",
+  "Faculty Start Date": "TRAINING INFORMATION->Faculty Positions->Start Date :",
+  "Faculty End Date": "TRAINING INFORMATION->Faculty Positions->End Date :",
+
+  "Primary Specialty": "SPECIALTY INFORMATION->Primary Specialty->Primary Specialty :",
+  "Board Certified": "SPECIALTY INFORMATION->Primary Specialty->Board Certified?",
+  "Certifying Board Name": "SPECIALTY INFORMATION->Primary Specialty->Name of Certifying Board :",
+  "Certification Number": "SPECIALTY INFORMATION->Primary Specialty->Certification Number :",
+  "Initial Certification Date": "SPECIALTY INFORMATION->Primary Specialty->Initial Certification Date :",
+  "Board Certification Expiration Date": "SPECIALTY INFORMATION->Primary Specialty->Does your board certification have an expiration date?",
+  
+  "Secondary Specialty": "SPECIALTY INFORMATION->Secondary Specialty->Do you have a Secondary Specialty?",
+  "Failed Certification Exam": "SPECIALTY INFORMATION->Failed Certification Exam->Have you ever failed a certification exam?",
+  
+  "Do you have Certifications?": "CERTIFICATION INFORMATION->Do you have Certifications? :",
+  "CPR Certification": "CERTIFICATION INFORMATION->CPR - Cardio-Pulmonary Resuscitation :",
+  "BLS Certification": "CERTIFICATION INFORMATION->Basic Life Support (BLS) :",
+  "ACLS Certification": "CERTIFICATION INFORMATION->Advanced Cardiac Life Support (ACLS)",
+  "ALSO Certification": "CERTIFICATION INFORMATION->Advanced Life Support in OB(ALSO) :",
+  "CoreC Certification": "CERTIFICATION INFORMATION->Health Care Provider (CoreC) :",
+  "ATLS Certification": "CERTIFICATION INFORMATION->Advanced Trauma Life Support (ATLS) :",
+  "NALS Certification": "CERTIFICATION INFORMATION->Neonatal Advanced Life Support (NALS)",
+  "NRP Certification": "CERTIFICATION INFORMATION->Neonatal Resuscitation Program (NRP) :",
+  "PALS Certification": "CERTIFICATION INFORMATION->Pediatric Advanced Life Support (PALS)",
+  "PALS State": "CERTIFICATION INFORMATION->PALS - State :",
+  "PALS Certification Date": "CERTIFICATION INFORMATION->PALS - Date of Certification :",
+  "PALS Expiration Date": "CERTIFICATION INFORMATION->PALS Expiration Date :",
+  "Anesthesia Permit": "CERTIFICATION INFORMATION->Anesthesia Permit :"
+}
+
+
+
+
+
+{
+  "Confirmed Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Confirmed Date :",
+  "Office Type": "PRACTICE LOCATIONS->Active Locations->General Information :->Office Type :",
+  "Provider Start Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Providers's Start Date :",
+  "Do you practice at this location?": "PRACTICE LOCATIONS->Active Locations->General Information :->Do you practice at this location?",
+  "Practice Explanation": "PRACTICE LOCATIONS->Active Locations->General Information :->Please Explain:",
+  "Provider Directory Classification": "PRACTICE LOCATIONS->Active Locations->General Information :->Provider Directory Classification :",
+  "Specialty": "PRACTICE LOCATIONS->Active Locations->General Information :->Specialty :",
+  "Subspecialty": "PRACTICE LOCATIONS->Active Locations->General Information :->Subspecialty :",
+  "Will you continue to practice at this location": "PRACTICE LOCATIONS->Active Locations->General Information :->Will you continue to practice at this location",
+  "Practice Name": "PRACTICE LOCATIONS->Active Locations->General Information :->Practice Name :",
+  "Practice Street": "PRACTICE LOCATIONS->Active Locations->General Information :->Street 1 :",
+  "Practice Country": "PRACTICE LOCATIONS->Active Locations->General Information :->Country :",
+  "Practice City": "PRACTICE LOCATIONS->Active Locations->General Information :->City :",
+  "Practice State": "PRACTICE LOCATIONS->Active Locations->General Information :->State :",
+  "Practice Zip Code": "PRACTICE LOCATIONS->Active Locations->General Information :->Zip Code :",
+  "Can general correspondence be sent to this location?": "PRACTICE LOCATIONS->Active Locations->General Information :->Can general correspondence be sent to this location?",
+  
+  "Mailing Address Street 1": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Street1 :",
+  "Mailing Address Street 2": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Street2 :",
+  "Mailing Address City": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->City :",
+  "Mailing Address State": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->State :",
+  "Mailing Address Country": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Country :",
+  "Mailing Address Zip Code": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Zip Code :",
+  "Type of Practice": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Type of Practice :",
+  "Type 2 NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Do you have an organization (Type 2) NPI?",
+  "Organization NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Organization (Type 2) NPI :",
+
+  "Appointment Phone Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers->Appointment Phone Number :",
+  "Fax Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers->Fax Number :",
+  "24/7 Phone Coverage": "PRACTICE LOCATIONS->Active Locations->Phone Numbers->Does this location provide 24hour/7day a week phone coverage?",
+  
+  "Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information->Tax ID :",
+  "Type of Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information->Type of Tax ID :",
+  "Primary Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information->Is this the primary Tax ID for this practice location?",
+
+  "Monday Start Time": "PRACTICE LOCATIONS->Active Locations->Monday->Start Time :",
+  "Monday End Time": "PRACTICE LOCATIONS->Active Locations->Monday->End Time :",
+  "Tuesday Start Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->Start Time :",
+  "Tuesday End Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->End Time :",
+  "Wednesday Start Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->Start Time :",
+  "Wednesday End Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->End Time :",
+  "Thursday Start Time": "PRACTICE LOCATIONS->Active Locations->Thursday->Start Time :",
+  "Thursday End Time": "PRACTICE LOCATIONS->Active Locations->Thursday->End Time :",
+  "Friday Start Time": "PRACTICE LOCATIONS->Active Locations->Friday->Start Time :",
+  "Friday End Time": "PRACTICE LOCATIONS->Active Locations->Friday->End Time :",
+  "Saturday Start Time": "PRACTICE LOCATIONS->Active Locations->Saturday->Start Time :",
+  "Saturday End Time": "PRACTICE LOCATIONS->Active Locations->Saturday->End Time :",
+
+  "Do you have any Partners/Associates?": "PRACTICE LOCATIONS->Active Locations->Colleagues->Do you have any Partners/Associate at this location?",
+  "Partner First Name": "PRACTICE LOCATIONS->Active Locations->Partners/Associates->First Name :",
+  "Partner Last Name": "PRACTICE LOCATIONS->Active Locations->Partners/Associates->Last Name :",
+  
+  "Call Coverage": "PRACTICE LOCATIONS->Active Locations->Covering Colleagues->Call Coverage Not Applicable :",
+  "Mid-Level Practitioners": "PRACTICE LOCATIONS->Active Locations->Mid-Level Practitioners->Do you have any mid-level practitioners at this location?",
+  
+  "Office Manager First Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->First Name :",
+  "Office Manager Last Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->Last Name :",
+  "Office Manager Phone Number": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->Phone Number :",
+  "Office Manager Fax Number": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->Fax Number :",
+  "Office Manager Credentialing Contact": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->Is Office Manager Credentialing Contact  :",
+  "Office Manager Email": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->E-mail Address :",
+  
+  "Billing Contact First Name": "PRACTICE LOCATIONS->Active Locations->Billing Contact->First Name :",
+  "Billing Contact Last Name": "PRACTICE LOCATIONS->Active Locations->Billing Contact->Last Name :",
+  "Billing Contact Email": "PRACTICE LOCATIONS->Active Locations->Billing Contact->E-mail Address :",
+
+  "Gender Limitations": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Gender Limitations :",
+  "Age Limitations": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Are there any Age Limitations?",
+  "Age Minimum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Age Minimum :",
+  "Age Maximum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Age Maximum :",
+
+  "ADA Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility->Does this office meet ADA accessibility requirements?",
+  "Handicapped Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility->Does this office provide handicapped accessibility?",
+
+  "Telehealth Services": "PRACTICE LOCATIONS->Active Locations->Telehealth->I provide telehealth services at this location:",
+  "Telehealth HIPAA Compliant": "PRACTICE LOCATIONS->Active Locations->Telehealth->Do you use a telehealth application or platform that is compliant with HIPAA?",
+  
+  "Telehealth Service Type Audio/Video": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Audio/Video :",
+  "Support for Family Caregivers": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Are you willing and able to support family caregivers?",
+
+  "Laboratory Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Laboratory Services?",
+  "Radiology Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Radiology Services?",
+  "X-ray Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->X-ray?",
+  "EKG Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->EKG Services?",
+  "Care of Minor Lacerations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Care of Minor Lacerations?",
+  "Pulmonary Function Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Pulmonary Function testing?",
+  "Allergy Injections": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Allergy Injections?",
+  "Allergy Skin Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Allergy Skin Testing?",
+  "Office Gynecology": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Office Gynecology?",
+  "Drawing Blood": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Drawing Blood?",
+  "Asthma Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Asthma Treatment?",
+  "Age Appropriate Immunizations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Age Appropriate Immunizations?",
+  "Flexible Sigmoidoscopy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Flexible Sigmoidoscopy?",
+  "Tympanometry/Audiometry Screening": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Tympanometry/Audiometry Screening?",
+  "Osteopathic Manipulation": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Osteopathic Manipulation?",
+  "IV Hydration Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->IV Hydration treatment?",
+  "Cardiac Stress Test": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Cardiac Stress Test?",
+  "Physical Therapy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Physical Therapy?",
+  "Anesthesia Administered": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Is anesthesia administered in your office?"
+}
+
+
+
+
+{
+  "Confirmed Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Confirmed Date :",
+  "Office Type": "PRACTICE LOCATIONS->Active Locations->General Information :->Office Type :",
+  "Provider Start Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Providers's Start Date :",
+  "Do you practice at this location?": "PRACTICE LOCATIONS->Active Locations->General Information :->Do you practice at this location?",
+  "Please Explain": "PRACTICE LOCATIONS->Active Locations->General Information :->Please Explain:",
+  "Provider Directory Classification": "PRACTICE LOCATIONS->Active Locations->General Information :->Provider Directory Classification :",
+  "Specialty": "PRACTICE LOCATIONS->Active Locations->General Information :->Specialty :",
+  "Will you continue to practice at this location": "PRACTICE LOCATIONS->Active Locations->General Information :->Will you continue to practice at this location",
+  "Practice Name": "PRACTICE LOCATIONS->Active Locations->General Information :->Practice Name :",
+  "Practice Street": "PRACTICE LOCATIONS->Active Locations->General Information :->Street 1 :",
+  "Practice Country": "PRACTICE LOCATIONS->Active Locations->General Information :->Country :",
+  "Practice City": "PRACTICE LOCATIONS->Active Locations->General Information :->City :",
+  "Practice State": "PRACTICE LOCATIONS->Active Locations->General Information :->State :",
+  "Practice Zip Code": "PRACTICE LOCATIONS->Active Locations->General Information :->Zip Code :",
+  
+  "Mailing Address Street 1": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Street1 :",
+  "Mailing Address City": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->City :",
+  "Mailing Address State": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->State :",
+  "Mailing Address Zip Code": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Zip Code :",
+  "Type of Practice": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Type of Practice :",
+  "Type 2 NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Do you have an organization (Type 2) NPI?",
+  "Organization NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Organization (Type 2) NPI :",
+
+  "Appointment Phone Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers->Appointment Phone Number :",
+  "Fax Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers->Fax Number :",
+
+  "Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information->Tax ID :",
+  "Type of Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information->Type of Tax ID :",
+  "Primary Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information->Is this the primary Tax ID for this practice location?",
+
+  "Monday Start Time": "PRACTICE LOCATIONS->Active Locations->Monday->Start Time :",
+  "Monday End Time": "PRACTICE LOCATIONS->Active Locations->Monday->End Time :",
+  "Tuesday Start Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->Start Time :",
+  "Tuesday End Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->End Time :",
+  "Wednesday Start Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->Start Time :",
+  "Wednesday End Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->End Time :",
+  "Thursday Start Time": "PRACTICE LOCATIONS->Active Locations->Thursday->Start Time :",
+  "Thursday End Time": "PRACTICE LOCATIONS->Active Locations->Thursday->End Time :",
+  "Friday Start Time": "PRACTICE LOCATIONS->Active Locations->Friday->Start Time :",
+  "Friday End Time": "PRACTICE LOCATIONS->Active Locations->Friday->End Time :",
+  "Saturday Start Time": "PRACTICE LOCATIONS->Active Locations->Saturday->Start Time :",
+  "Saturday End Time": "PRACTICE LOCATIONS->Active Locations->Saturday->End Time :",
+  "Sunday Start Time": "PRACTICE LOCATIONS->Active Locations->Sunday->Start Time :",
+  "Sunday End Time": "PRACTICE LOCATIONS->Active Locations->Sunday->End Time :",
+
+  "Do you have any Partners/Associates?": "PRACTICE LOCATIONS->Active Locations->Colleagues->Do you have any Partners/Associate at this location?",
+
+  "Call Coverage": "PRACTICE LOCATIONS->Active Locations->Covering Colleagues->Call Coverage Not Applicable :",
+  "Mid-Level Practitioners": "PRACTICE LOCATIONS->Active Locations->Mid-Level Practitioners->Do you have any mid-level practitioners at this location?",
+
+  "Office Manager First Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->First Name :",
+  "Office Manager Last Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->Last Name :",
+  "Office Manager Email": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->E-mail Address :",
+  "Office Manager Credentialing Contact": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact->Is Office Manager Credentialing Contact  :",
+
+  "Billing Contact First Name": "PRACTICE LOCATIONS->Active Locations->Billing Contact->First Name :",
+  "Billing Contact Last Name": "PRACTICE LOCATIONS->Active Locations->Billing Contact->Last Name :",
+  "Billing Contact Email": "PRACTICE LOCATIONS->Active Locations->Billing Contact->E-mail Address :",
+
+  "Age Limitations": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Are there any Age Limitations?",
+  "Age Minimum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Age Minimum :",
+  "Age Maximum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations->Age Maximum :",
+
+  "ADA Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility->Does this office meet ADA accessibility requirements?",
+  "Handicapped Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility->Does this office provide handicapped accessibility?",
+
+  "Exterior Building Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements->Exterior Building",
+  "Interior Building Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements->Interior Building",
+  "Wheelchair Access to Exam Room": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements->Wheelchair access to exam room",
+  "Exam Table Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements->Exam table/scale/chair",
+  "Parking Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements->Parking",
+  "Restroom Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements->Restroom",
+  
+  "Telehealth Service Type Audio": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Audio :",
+  "Telehealth Service Type Audio/Video": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Audio/Video :",
+  "Telehealth Service Type Secure Text Messaging": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Secure Text Messaging :",
+  "Telehealth Service Type Remote Monitoring": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Remote Monitoring :",
+  "Telehealth Service Type Store-and-Forward": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Store-and-Forward :",
+  "Support for Family Caregivers": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type->Are you willing and able to support family caregivers?",
+
+  "Laboratory Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Laboratory Services?",
+  "Radiology Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Radiology Services?",
+  "X-ray Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->X-ray?",
+  "EKG Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->EKG Services?",
+  "Care of Minor Lacerations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Care of Minor Lacerations?",
+  "Pulmonary Function Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Pulmonary Function testing?",
+  "Allergy Injections": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Allergy Injections?",
+  "Allergy Skin Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Allergy Skin Testing?",
+  "Office Gynecology": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Office Gynecology?",
+  "Drawing Blood": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Drawing Blood?",
+  "Asthma Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Asthma Treatment?",
+  "Age Appropriate Immunizations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Age Appropriate Immunizations?",
+  "Flexible Sigmoidoscopy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Flexible Sigmoidoscopy?",
+  "Tympanometry/Audiometry Screening": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Tympanometry/Audiometry Screening?",
+  "Osteopathic Manipulation": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Osteopathic Manipulation?",
+  "IV Hydration Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->IV Hydration treatment?",
+  "Cardiac Stress Test": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Cardiac Stress Test?",
+  "Physical Therapy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Physical Therapy?",
+  "Anesthesia Administered": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services->Is anesthesia administered in your office?"
+}
+
+
+{
+  "Confirmed Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Confirmed Date :",
+  "Office Type": "PRACTICE LOCATIONS->Active Locations->General Information :->Office Type :",
+  "Provider Start Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Providers's Start Date :",
+  "Do you practice at this location?": "PRACTICE LOCATIONS->Active Locations->General Information :->Do you practice at this location?",
+  "Practice Explanation": "PRACTICE LOCATIONS->Active Locations->General Information :->Please Explain:",
+  "Provider Directory Classification": "PRACTICE LOCATIONS->Active Locations->General Information :->Provider Directory Classification :",
+  "Specialty": "PRACTICE LOCATIONS->Active Locations->General Information :->Specialty :",
+  "Will you continue to practice at this location": "PRACTICE LOCATIONS->Active Locations->General Information :->Will you continue to practice at this location",
+  "Practice Name": "PRACTICE LOCATIONS->Active Locations->General Information :->Practice Name :",
+  "Practice Street": "PRACTICE LOCATIONS->Active Locations->General Information :->Street 1 :",
+  "Practice Country": "PRACTICE LOCATIONS->Active Locations->General Information :->Country :",
+  "Practice City": "PRACTICE LOCATIONS->Active Locations->General Information :->City :",
+  "Practice State": "PRACTICE LOCATIONS->Active Locations->General Information :->State :",
+  "Practice Zip Code": "PRACTICE LOCATIONS->Active Locations->General Information :->Zip Code :",
+
+  "Mailing Address Type of Practice": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Type of Practice :",
+  "Mailing Address Type 2 NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Do you have an organization (Type 2) NPI?",
+  "Mailing Address Organization NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Organization (Type 2) NPI :",
+
+  "Appointment Phone Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers :->Appointment Phone Number :",
+  "Fax Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers :->Fax Number :",
+
+  "Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information :->Tax ID :",
+  "Type of Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information :->Type of Tax ID :",
+  "Primary Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information :->Is this the primary Tax ID for this practice location?",
+
+  "Monday Start Time": "PRACTICE LOCATIONS->Active Locations->Monday->Start Time :",
+  "Monday End Time": "PRACTICE LOCATIONS->Active Locations->Monday->End Time :",
+  "Tuesday Start Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->Start Time :",
+  "Tuesday End Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->End Time :",
+  "Wednesday Start Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->Start Time :",
+  "Wednesday End Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->End Time :",
+  "Thursday Start Time": "PRACTICE LOCATIONS->Active Locations->Thursday->Start Time :",
+  "Thursday End Time": "PRACTICE LOCATIONS->Active Locations->Thursday->End Time :",
+  "Friday Start Time": "PRACTICE LOCATIONS->Active Locations->Friday->Start Time :",
+  "Friday End Time": "PRACTICE LOCATIONS->Active Locations->Friday->End Time :",
+  "Saturday Start Time": "PRACTICE LOCATIONS->Active Locations->Saturday->Start Time :",
+  "Saturday End Time": "PRACTICE LOCATIONS->Active Locations->Saturday->End Time :",
+  "Sunday Start Time": "PRACTICE LOCATIONS->Active Locations->Sunday->Start Time :",
+  "Sunday End Time": "PRACTICE LOCATIONS->Active Locations->Sunday->End Time :",
+
+  "Do you have any Partners/Associates?": "PRACTICE LOCATIONS->Active Locations->Colleagues :->Do you have any Partners/Associate at this location?",
+  
+  "Call Coverage": "PRACTICE LOCATIONS->Active Locations->Covering Colleagues :->Call Coverage Not Applicable :",
+  "Mid-Level Practitioners": "PRACTICE LOCATIONS->Active Locations->Mid-Level Practitioners :->Do you have any mid-level practitioners at this location?",
+
+  "Office Manager First Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->First Name :",
+  "Office Manager Last Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->Last Name :",
+  "Office Manager Email": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->E-mail Address :",
+  "Office Manager Credentialing Contact": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->Is Office Manager Credentialing Contact  :",
+
+  "Billing Contact First Name": "PRACTICE LOCATIONS->Active Locations->Billing Contact :->First Name :",
+  "Billing Contact Last Name": "PRACTICE LOCATIONS->Active Locations->Billing Contact :->Last Name :",
+  "Billing Contact Email": "PRACTICE LOCATIONS->Active Locations->Billing Contact :->E-mail Address :",
+
+  "Age Limitations": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations :->Are there any Age Limitations?",
+  "Age Minimum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations :->Age Minimum :",
+  "Age Maximum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations :->Age Maximum :",
+
+  "ADA Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility :->Does this office meet ADA accessibility requirements?",
+  "Handicapped Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility :->Does this office provide handicapped accessibility?",
+
+  "Exterior Building Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Exterior Building",
+  "Interior Building Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Interior Building",
+  "Wheelchair Access to Exam Room": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Wheelchair access to exam room",
+  "Exam Table Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Exam table/scale/chair",
+  "Parking Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Parking",
+  "Restroom Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Restroom",
+
+  "Telehealth Services Audio": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Audio :",
+  "Telehealth Services Audio/Video": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Audio/Video :",
+  "Telehealth Services Secure Text Messaging": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Secure Text Messaging :",
+  "Telehealth Services Remote Monitoring": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Remote Monitoring :",
+  "Telehealth Services Store-and-Forward": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Store-and-Forward :",
+  "Support for Family Caregivers": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Are you willing and able to support family caregivers?",
+
+  "Laboratory Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Laboratory Services? :",
+  "Radiology Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Radiology Services :",
+  "X-ray Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->X-ray?",
+  "EKG Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->EKG Services?",
+  "Care of Minor Lacerations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Care of Minor Lacerations?",
+  "Pulmonary Function Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Pulmonary Function testing?",
+  "Allergy Injections": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Allergy Injections :",
+  "Allergy Skin Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Allergy Skin Testing :",
+  "Office Gynecology": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Office Gynecology?",
+  "Drawing Blood": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Drawing Blood?",
+  "Asthma Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Asthma Treatment?",
+  "Age Appropriate Immunizations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Age Appropriate Immunizations?",
+  "Flexible Sigmoidoscopy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Flexible Sigmoidoscopy?",
+  "Tympanometry/Audiometry Screening": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Tympanometry/Audiometry Screening ?",
+  "Osteopathic Manipulation": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Osteopathic Manipulation?",
+  "IV Hydration Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->IV Hydration treatment?",
+  "Cardiac Stress Test": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Cardiac Stress Test?",
+  "Physical Therapy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Physical Therapy?",
+  "Anesthesia Administered": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Is anesthesia administered in your office?"
+}
+
+
+
+
+{
+  "Confirmed Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Confirmed Date :",
+  "Office Type": "PRACTICE LOCATIONS->Active Locations->General Information :->Office Type :",
+  "Provider Start Date": "PRACTICE LOCATIONS->Active Locations->General Information :->Providers's Start Date :",
+  "Do you practice at this location?": "PRACTICE LOCATIONS->Active Locations->General Information :->Do you practice at this location?",
+  "Practice Explanation": "PRACTICE LOCATIONS->Active Locations->General Information :->Please Explain:",
+  "Specialty": "PRACTICE LOCATIONS->Active Locations->General Information :->Specialty :",
+  "Will you continue to practice at this location": "PRACTICE LOCATIONS->Active Locations->General Information :->Will you continue to practice at this location",
+  "Practice Name": "PRACTICE LOCATIONS->Active Locations->General Information :->Practice Name :",
+  "Practice Street": "PRACTICE LOCATIONS->Active Locations->General Information :->Street 1 :",
+  "Practice Country": "PRACTICE LOCATIONS->Active Locations->General Information :->Country :",
+  "Practice City": "PRACTICE LOCATIONS->Active Locations->General Information :->City :",
+  "Practice State": "PRACTICE LOCATIONS->Active Locations->General Information :->State :",
+  "Practice Zip Code": "PRACTICE LOCATIONS->Active Locations->General Information :->Zip Code :",
+  "Practice Location Website": "PRACTICE LOCATIONS->Active Locations->General Information :->Practice Location Website",
+
+  "Mailing Address NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Do you have an organization (Type 2) NPI?",
+  "Mailing Address Organization NPI": "PRACTICE LOCATIONS->Active Locations->Mailing Address :->Organization (Type 2) NPI :",
+
+  "Appointment Phone Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers :->Appointment Phone Number :",
+  "Fax Number": "PRACTICE LOCATIONS->Active Locations->Phone Numbers :->Fax Number :",
+
+  "Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information :->Tax ID :",
+  "Tax ID Type": "PRACTICE LOCATIONS->Active Locations->Tax Information :->Type of Tax ID :",
+  "Primary Tax ID": "PRACTICE LOCATIONS->Active Locations->Tax Information :->Is this the primary Tax ID for this practice location?",
+
+  "Monday Start Time": "PRACTICE LOCATIONS->Active Locations->Monday->Start Time :",
+  "Monday End Time": "PRACTICE LOCATIONS->Active Locations->Monday->End Time :",
+  "Tuesday Start Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->Start Time :",
+  "Tuesday End Time": "PRACTICE LOCATIONS->Active Locations->Tuesday->End Time :",
+  "Wednesday Start Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->Start Time :",
+  "Wednesday End Time": "PRACTICE LOCATIONS->Active Locations->Wednesday->End Time :",
+  "Thursday Start Time": "PRACTICE LOCATIONS->Active Locations->Thursday->Start Time :",
+  "Thursday End Time": "PRACTICE LOCATIONS->Active Locations->Thursday->End Time :",
+  "Friday Start Time": "PRACTICE LOCATIONS->Active Locations->Friday->Start Time :",
+  "Friday End Time": "PRACTICE LOCATIONS->Active Locations->Friday->End Time :",
+  "Saturday Start Time": "PRACTICE LOCATIONS->Active Locations->Saturday->Start Time :",
+  "Saturday End Time": "PRACTICE LOCATIONS->Active Locations->Saturday->End Time :",
+  "Sunday Start Time": "PRACTICE LOCATIONS->Active Locations->Sunday->Start Time :",
+  "Sunday End Time": "PRACTICE LOCATIONS->Active Locations->Sunday->End Time :",
+
+  "Do you have any Partners/Associates?": "PRACTICE LOCATIONS->Active Locations->Colleagues :->Do you have any Partners/Associate at this location?",
+  
+  "Colleague Type": "PRACTICE LOCATIONS->Active Locations->Partners/Associates :->Colleague Type :",
+  "Partner First Name": "PRACTICE LOCATIONS->Active Locations->Partners/Associates :->First Name :",
+  "Partner Last Name": "PRACTICE LOCATIONS->Active Locations->Partners/Associates :->Last Name :",
+
+  "Call Coverage": "PRACTICE LOCATIONS->Active Locations->Covering Colleagues :->Call Coverage Not Applicable :",
+  "Mid-Level Practitioners": "PRACTICE LOCATIONS->Active Locations->Mid-Level Practitioners :->Do you have any mid-level practitioners at this location?",
+
+  "Office Manager First Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->First Name :",
+  "Office Manager Last Name": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->Last Name :",
+  "Office Manager Email": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->E-mail Address :",
+  "Office Manager Credentialing Contact": "PRACTICE LOCATIONS->Active Locations->Office Manager or Business Staff Contact :->Is Office Manager Credentialing Contact :",
+
+  "Billing Contact Same": "PRACTICE LOCATIONS->Active Locations->Billing Contact :->Office Manager & Billing Contact are same ?",
+
+  "Age Limitations": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations :->Are there any Age Limitations?",
+  "Age Minimum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations :->Age Minimum :",
+  "Age Maximum": "PRACTICE LOCATIONS->Active Locations->Practice Limitations and Patient Populations :->Age Maximum :",
+
+  "ADA Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility :->Does this office meet ADA accessibility requirements?",
+  "Handicapped Accessibility": "PRACTICE LOCATIONS->Active Locations->Accessibility :->Does this office provide handicapped accessibility?",
+
+  "Exterior Building Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Exterior Building",
+  "Interior Building Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Interior Building",
+  "Wheelchair Access to Exam Room": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Wheelchair access to exam room",
+  "Exam Table Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Exam table/scale/chair",
+  "Parking Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Parking",
+  "Restroom Accessibility": "PRACTICE LOCATIONS->Active Locations->Please specify how this location meets handicapped accessibility requirements:->Restroom",
+
+  "Telehealth Audio": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Audio :",
+  "Telehealth Audio/Video": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Audio/Video :",
+  "Telehealth Secure Text Messaging": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Secure Text Messaging :",
+  "Telehealth Remote Monitoring": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Remote Monitoring :",
+  "Telehealth Store-and-Forward": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Store-and-Forward :",
+  "Support for Family Caregivers": "PRACTICE LOCATIONS->Active Locations->Telehealth Service Type:->Are you willing and able to support family caregivers?",
+
+  "Laboratory Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Laboratory Services? :",
+  "Radiology Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Radiology Services :",
+  "X-ray Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->X-ray?",
+  "EKG Services": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->EKG Services?",
+  "Care of Minor Lacerations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Care of Minor Lacerations?",
+  "Pulmonary Function Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Pulmonary Function testing?",
+  "Allergy Injections": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Allergy Injections :",
+  "Allergy Skin Testing": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Allergy Skin Testing :",
+  "Office Gynecology": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Office Gynecology?",
+  "Drawing Blood": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Drawing Blood?",
+  "Asthma Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Asthma Treatment?",
+  "Age Appropriate Immunizations": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Age Appropriate Immunizations?",
+  "Flexible Sigmoidoscopy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Flexible Sigmoidoscopy?",
+  "Tympanometry/Audiometry Screening": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Tympanometry/Audiometry Screening ?",
+  "Osteopathic Manipulation": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Osteopathic Manipulation?",
+  "IV Hydration Treatment": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->IV Hydration treatment?",
+  "Cardiac Stress Test": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Cardiac Stress Test?",
+  "Physical Therapy": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Physical Therapy?",
+  "Anesthesia Administered": "PRACTICE LOCATIONS->Active Locations->Does this location provide any of the following services:->Is anesthesia administered in your office?"
+}
+
+
+
+
+
+{
+  "Admitting Privileges": {
+    "Do you have admitting privileges at one or more hospitals?": "HOSPITAL AFFILIATIONS->General :->Do you have admitting privileges at one or more hospitals?",
+    "Do you have an admitting arrangement where another provider admits for you?": "HOSPITAL AFFILIATIONS->General :->Do you have an admitting arrangement where another provider admits for you?",
+    "Do you have any non-admitting hospital affiliations?": "HOSPITAL AFFILIATIONS->General :->Do you have any non-admitting hospital affiliations?"
+  },
+  "Admitting Privileges Details": [
+    {
+      "Country": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Country :",
+      "State": "HOSPITAL AFFILIATIONS->Admitting Privileges :->State :",
+      "Hospital Name": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Hospital Name :",
+      "Street 1": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Street 1 :",
+      "City": "HOSPITAL AFFILIATIONS->Admitting Privileges :->City :",
+      "Zip Code": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Zip Code :",
+      "Primary Hospital": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Is this your primary hospital? :",
+      "Admitting Privilege Status": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Admitting Privilege Status :",
+      "Start Date": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Start Date :",
+      "Admitting Privilege Type": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Admitting Privilege Type :",
+      "Department": "HOSPITAL AFFILIATIONS->Admitting Privileges :->Department :"
+    },
+    // Repeat similar structure for each hospital entry
+  ],
+  "Non-Admitting Affiliations": {
+    "State": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->State :",
+    "Hospital Name": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Hospital Name :",
+    "Other Hospital Name": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Other Hospital Name :",
+    "Street 1": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Street 1 :",
+    "City": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->City :",
+    "Zip Code": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Zip Code :",
+    "Phone Number": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Phone Number :",
+    "Non-Admitting Affiliation Status": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Non-Admitting Affiliation Status :",
+    "Non-Admitting Affiliation Description": "HOSPITAL AFFILIATIONS->Non-Admitting Affiliations :->Please describe the non-admitting affiliation:"
+  },
+
+  "Credentialing Information": [
+    {
+      "First Name": "CREDENTIALING INFORMATION->First Name :",
+      "Last Name": "CREDENTIALING INFORMATION->Last Name :",
+      "Street 1": "CREDENTIALING INFORMATION->Street 1 :",
+      "City": "CREDENTIALING INFORMATION->City :",
+      "State": "CREDENTIALING INFORMATION->State :",
+      "Zip Code": "CREDENTIALING INFORMATION->Zip Code :",
+      "Phone Number": "CREDENTIALING INFORMATION->Phone Number :",
+      "Fax Number": "CREDENTIALING INFORMATION->Fax Number :",
+      "Email Address": "CREDENTIALING INFORMATION->Email Address :",
+      "Primary Credentialing Contact": "CREDENTIALING INFORMATION->Primary Credentialing Contact :",
+      "Location Type": "CREDENTIALING INFORMATION->Location Type :"
+    },
+    // Repeat similar structure for each credentialing contact
+  ],
+
+  "Insurance Information": [],
+
+  "Work History Information": {
+    "Employment Information Record": [
+      {
+        "Practice/Employer Name": "WORK HISTORY INFORMATION->Employment Information Record->Practice/Employer Name :",
+        "Street 1": "WORK HISTORY INFORMATION->Employment Information Record->Street 1 :",
+        "Street 2": "WORK HISTORY INFORMATION->Employment Information Record->Street 2 :",
+        "Country": "WORK HISTORY INFORMATION->Employment Information Record->Country :",
+        "City": "WORK HISTORY INFORMATION->Employment Information Record->City :",
+        "State": "WORK HISTORY INFORMATION->Employment Information Record->State :",
+        "Zip Code": "WORK HISTORY INFORMATION->Employment Information Record->Zip Code :",
+        "Phone Number": "WORK HISTORY INFORMATION->Employment Information Record->Phone Number :",
+        "Fax Number": "WORK HISTORY INFORMATION->Employment Information Record->Fax Number :",
+        "Title/Position": "WORK HISTORY INFORMATION->Employment Information Record->Title/Position :",
+        "Start Date": "WORK HISTORY INFORMATION->Employment Information Record->Start Date :",
+        "Is this your current employer?": "WORK HISTORY INFORMATION->Employment Information Record->Is this your current employer?",
+        "End Date": "WORK HISTORY INFORMATION->Employment Information Record->End Date :",
+        "Reason for Departure": "WORK HISTORY INFORMATION->Employment Information Record->Reason for departure :"
+      },
+      // Repeat similar structure for each employment record
+    ],
+    "Military": {
+      "Active Military Duty": "WORK HISTORY INFORMATION->Military :->Are you currently on active military duty?",
+      "Accept All New Patients": "WORK HISTORY INFORMATION->Military :->Do you accept all new patients at this location?"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+{
+  "References Information": [
+    {
+      "Provider Type": "REFERENCES INFORMATION->Provider Type :",
+      "Specialty": "REFERENCES INFORMATION->Specialty :",
+      "First Name": "REFERENCES INFORMATION->First Name :",
+      "Last Name": "REFERENCES INFORMATION->Last Name :",
+      "Street 1": "REFERENCES INFORMATION->Street 1 :",
+      "City": "REFERENCES INFORMATION->City:",
+      "State": "REFERENCES INFORMATION->State :",
+      "Zip Code": "REFERENCES INFORMATION->Zip Code :",
+      "Country": "REFERENCES INFORMATION->Country :",
+      "Email Address": "REFERENCES INFORMATION->Email Address :",
+      "Phone Number": "REFERENCES INFORMATION->Phone Number :",
+      "Fax Number": "REFERENCES INFORMATION->Fax Number :",
+      "Relationship": "REFERENCES INFORMATION->Relationship :",
+      "Association Start Date": "REFERENCES INFORMATION->Association Start Date :"
+    },
+    // Repeat similar structure for each reference
+  ],
+
+  "Disclosure Information": {
+    "Board Certification": {
+      "Board Certification Denial": "DISCLOSURE INFORMATION->Board Certification :->1. Have you ever had Board certification denied, revoked, limited, restricted, suspended, involuntarily relinquished, subject to stipulated or probationary conditions, received a letter of reprimand from a specialty Board, or is any such action currently pending or under review?",
+      "Voluntary Relinquishment": "DISCLOSURE INFORMATION->Board Certification :->2. Have you ever voluntarily relinquished a certification, including any voluntary non-renewal of a time-limited certification?"
+    },
+    "Professional Insurance History": {
+      "Insurance Coverage Termination": "DISCLOSURE INFORMATION->Professional Insurance History :->1. Has your professional liability insurance coverage ever been terminated, not renewed, cancelled, limited, restricted, modified, or altered by action of the insurance company?",
+      "Coverage Denial": "DISCLOSURE INFORMATION->Professional Insurance History :->2. Have you ever been denied coverage?",
+      "Specific Exclusions": "DISCLOSURE INFORMATION->Professional Insurance History :->3. Has your present professional liability insurance carrier excluded any specific procedures from your insurance coverage?"
+    },
+    "Professional Claims History": {
+      "Malpractice Claims": "DISCLOSURE INFORMATION->Professional Claims History :->1. Have there ever been any professional liability (i.e., malpractice) claims, suits, judgments, settlements, or arbitration proceedings involving you?",
+      "Claims Date": "DISCLOSURE INFORMATION->Professional Claims History :->Date :",
+      "Occurrence Date": "DISCLOSURE INFORMATION->Professional Claims History :->Date of Occurrence :",
+      "Claim Filed Date": "DISCLOSURE INFORMATION->Professional Claims History :->Date Claim Filed :",
+      "Claim Status": "DISCLOSURE INFORMATION->Professional Claims History :->Claim Status :",
+      "Insurance Carrier Name": "DISCLOSURE INFORMATION->Professional Claims History :->Insurance Carrier Name :",
+      "Settlement Amount": "DISCLOSURE INFORMATION->Professional Claims History :->Settlement Amount :",
+      "Resolution Method": "DISCLOSURE INFORMATION->Professional Claims History :->Resolution Method :",
+      "Allegations Description": "DISCLOSURE INFORMATION->Professional Claims History :->Description of Allegations :",
+      "Primary Defendant": "DISCLOSURE INFORMATION->Professional Claims History :->Were you the primary defendant :",
+      "Co-defendants Number": "DISCLOSURE INFORMATION->Professional Claims History :->Number of Co-defendants :",
+      "Your Involvement": "DISCLOSURE INFORMATION->Professional Claims History :->Your involvement in the case :",
+      "Alleged Injury Description": "DISCLOSURE INFORMATION->Professional Claims History :->Description of alleged injury to patient :",
+      "Alleged Injury Result in Death": "DISCLOSURE INFORMATION->Professional Claims History :->Did the alleged injury result in death:",
+      "NPDB Reporting": "DISCLOSURE INFORMATION->Professional Claims History :->Data Bank (NPDB) :",
+      "Pending Claims": "DISCLOSURE INFORMATION->Professional Claims History :->2. Are any professional liability (i.e., malpractice) claims, suits, judgments, settlements or arbitration proceedings involving you currently pending?",
+      "Formal Demand for Payment": "DISCLOSURE INFORMATION->Professional Claims History :->3. Are you aware of any formal demand for payment or similar claim submitted to your insurer that did not result in a lawsuit or other proceeding alleging professional liability?"
+    },
+    "Other Attestation Questions": {
+      "Adverse Actions at Hospitals": "DISCLOSURE INFORMATION->Other Attestation Questions :->A. To your knowledge, have you ever been the subject of an adverse action (or is an investigation or adverse action currently pending by)? 1. a hospital or other healthcare facility (e.g., surgical center, nursing home, renal dialysis facility, etc.)?",
+      "Adverse Actions at Education Facilities": "DISCLOSURE INFORMATION->Other Attestation Questions :->A. To your knowledge, have you ever been the subject of an adverse action (or is an investigation or adverse action currently pending by)? 2. an education facility or program (e.g., dental or other health care professional school, residency, internship, etc.)?",
+      "Adverse Actions at Professional Organizations": "DISCLOSURE INFORMATION->Other Attestation Questions :->A. To your knowledge, have you ever been the subject of an adverse action (or is an investigation or adverse action currently pending by)? 3. a professional organization or society?",
+      "Adverse Actions at Licensing Bodies": "DISCLOSURE INFORMATION->Other Attestation Questions :->A. To your knowledge, have you ever been the subject of an adverse action (or is an investigation or adverse action currently pending by)? 4. a professional licensing body (in any jurisdiction for any profession)?",
+      "Adverse Actions by Agencies": "DISCLOSURE INFORMATION->Other Attestation Questions :->A. To your knowledge, have you ever been the subject of an adverse action (or is an investigation or adverse action currently pending by)? 5. a private, federal, or state agency regarding your participation in a third-party payment program (Medicare, Medicaid, HMO, PPO, etc.)?",
+      "DEA Related Actions": "DISCLOSURE INFORMATION->Other Attestation Questions :->6. a state or federal agency (DEA, etc.) regarding your prescription of controlled substances?",
+      "Reports to Data Banks": "DISCLOSURE INFORMATION->Other Attestation Questions :->B. To your knowledge, have you ever been the subject of any report(s) to a state or federal data bank or state licensing or disciplining entity?",
+      "Involuntary Resignation": "DISCLOSURE INFORMATION->Other Attestation Questions :->1. Have you ever involuntarily resigned, terminated or surrendered medical staff privileges or employment from a hospital, group practice or other health care facility or medical staff?",
+      "Voluntary Resignation": "DISCLOSURE INFORMATION->Other Attestation Questions :->2. Have you ever voluntarily resigned, terminated, or surrendered medical staff privileges or employment from a hospital, group practice or other healthcare facility or medical staff to avoid disciplinary action or investigation?",
+      "Suspension or Exclusion": "DISCLOSURE INFORMATION->Other Attestation Questions :->D. Have you ever been suspended, fined, disciplined, investigated, expelled, sanctioned or otherwise restricted or excluded from participating in any private, federal or state health insurance program?",
+      "Quality Determination": "DISCLOSURE INFORMATION->Other Attestation Questions :->E. Has any professional review organization under contract with Medicare or Medicaid ever made an adverse quality determination concerning your treatment rendered to any patient?",
+      "Felony or Misdemeanor Convictions": "DISCLOSURE INFORMATION->Other Attestation Questions :->F. Have you ever been convicted of, pled guilty to, or pled nolo contendere to any felony or misdemeanor that is reasonably related to your qualifications, competence, functions, or duties as a health care professional?",
+      "Fraud or Violence Convictions": "DISCLOSURE INFORMATION->Other Attestation Questions :->G. Have you ever been convicted of, pled guilty to, or pled nolo contendere to any felony or misdemeanor that alleged fraud, an act of violence, child abuse, or a sexual offense or sexual misconduct?",
+      "Civil Offense Liability": "DISCLOSURE INFORMATION->Other Attestation Questions :->H. In the last ten years, have you been found liable or responsible for or named in any civil offense that is reasonably related to your qualifications, competence, functions, or duties as a health care professional?",
+      "Court-Martial": "DISCLOSURE INFORMATION->Other Attestation Questions :->I. Have you ever been court-martialed for actions related to your duties as a health care professional?"
+    },
+    "Ability to Perform Job": {
+      "Illegal Drug Use": "DISCLOSURE INFORMATION->Ability to Perform Job :->1. Are you currently engaged in the illegal use of drugs?",
+      "Chemical Substances": "DISCLOSURE INFORMATION->Ability to Perform Job :->2. Do you use any chemical substances that would in any way impair or limit your ability to practice medicine?",
+      "Risk to Patients": "DISCLOSURE INFORMATION->Ability to Perform Job :->3. Do you have any reason to believe that you would pose a risk to the safety or well-being of your patients?"
+    },
+    "Health Status": {
+      "Physical or Mental Conditions": "DISCLOSURE INFORMATION->Health Status :->1. Do you currently have any physical or mental condition(s) that may affect your ability to practice or exercise the clinical privileges or responsibilities typically associated with your specialty?",
+      "Treatment Programs": "DISCLOSURE INFORMATION->Health Status :->2. Are you currently in a treatment program(s) that may affect your ability to practice?",
+      "Ability to Perform Essential Functions": "DISCLOSURE INFORMATION->Health Status :->3. Are you able to perform all the essential functions of the position for which you are applying, safely and according to accepted standards?",
+      "TB Test": "DISCLOSURE INFORMATION->Health Status :->4. I have had a TB test within the last 12 months and the test was negative.",
+      "Previous TB Infection": "DISCLOSURE INFORMATION->Health Status :->4(A). I have had a history of previous infection with Mycobacterium Tuberculosis or a positive TB test but I currently have no symptoms.",
+      "Active TB Disease": "DISCLOSURE INFORMATION->Health Status :->4(B). I currently have active TB disease which is being adequately treated.",
+      "Scheduled TB Test": "DISCLOSURE INFORMATION->Health Status :->4(C). I have not had a TB test within the past 12 months, but have scheduled an appointment.",
+      "Influenza Vaccination Compliance": "DISCLOSURE INFORMATION->Health Status :->5. If this facility must comply with the Colorado Board of Health requirements, do you agree to provide proof of influenza vaccination or a medical exemption before practicing?"
+    }
+  }
+}
